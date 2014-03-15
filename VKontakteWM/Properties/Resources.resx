@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangeStatusView_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="ChangeStatusView_DeleteStatus" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ChangeStatusView_ResetStatus" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="ChangeStatusView_SetStatus" xml:space="preserve">
+    <value>Установить</value>
+  </data>
+  <data name="FatalError" xml:space="preserve">
+    <value>Fatal Error!</value>
+  </data>
+  <data name="FatalErrorInfo" xml:space="preserve">
+    <value>VKontakte Windows Mobile encountered an error and needs to close!
+Error: {0}
+
+Additional information is available in ApplicationLog.txt file.</value>
+  </data>
+  <data name="InsufficientMemory" xml:space="preserve">
+    <value>Insufficient memory!</value>
+  </data>
+  <data name="LoginView_Button_Cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="LoginView_Button_Login" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="LoginView_Caption_Login" xml:space="preserve">
+    <value>Электронная почта или логин</value>
+  </data>
+  <data name="LoginView_Caption_Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="LoginView_Text" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="MainView_Button_ChangeAvatar" xml:space="preserve">
+    <value>См. аватар</value>
+  </data>
+  <data name="MainView_Button_ChangeStatus" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="MainView_Button_NotificatorCantStart" xml:space="preserve">
+    <value>Авторизуйтесь с галочкой "запомнить", чтобы запустить нотификатор</value>
+  </data>
+  <data name="MainView_Button_Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="MainView_Label_FriendsPhotos" xml:space="preserve">
+    <value>Фотографий</value>
+  </data>
+  <data name="MainView_Label_WallMessages" xml:space="preserve">
+    <value>Стена</value>
+  </data>
+  <data name="MainView_Label_Messages" xml:space="preserve">
+    <value>Сообщений</value>
+  </data>
+  <data name="MainView_Label_FriendsNews" xml:space="preserve">
+    <value>Новостей</value>
+  </data>
+  <data name="MainView_Text" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="MasterForm_Initialize_SkinManagerDefaultLoadingException" xml:space="preserve">
+    <value>SkinManagerDefaultLoadingException</value>
+  </data>
+  <data name="MasterForm_Initialize_SkinManagerLoadingException" xml:space="preserve">
+    <value>SkinManagerLoadingException</value>
+  </data>
+  <data name="MessagesChainsListKineticListView_IfEmptyText" xml:space="preserve">
+    <value>Попробуйте обновить вручную</value>
+  </data>
+  <data name="MessagesChainsList_Designer_btnRefresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="MessagesChainsList_Designer_btnSentMessage" xml:space="preserve">
+    <value>Новое сообщение</value>
+  </data>
+  <data name="MessagesChainsList_View_Title" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="MessagesList_Designer_menuItemBack_Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="MessagesList_Designer_menuItemSent_Text" xml:space="preserve">
+    <value>Написать</value>
+  </data>
+  <data name="MessagesList_Designer_Title" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="NotEnoughMemory" xml:space="preserve">
+    <value>There is not enough program memory to run the application. Please close some of the running applications!</value>
+  </data>
+  <data name="PhotoCommentsUpdatesListKineticListView_IfEmptyText" xml:space="preserve">
+    <value>Нет комментариев.</value>
+  </data>
+  <data name="PhotoCommentsUpdatesList_Controller_Group_Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="PhotoCommentsUpdatesList_Controller_Group_Yesterday" xml:space="preserve">
+    <value>Вчера</value>
+  </data>
+  <data name="PhotoCommentsUpdatesList_View_Title" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="StatusUpdatesListKineticListView_IfEmptyText" xml:space="preserve">
+    <value>Попробуйте обновить вручную</value>
+  </data>
+  <data name="StatusUpdatesList_Controller_Group_Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="StatusUpdatesList_Controller_Group_Yesterday" xml:space="preserve">
+    <value>Вчера</value>
+  </data>
+  <data name="StatusUpdatesList_Designer_btnPhotoCommentsUpdates_Text" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="StatusUpdatesList_Designer_btnRefresh_Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="StatusUpdatesList_Designer_btnStatusUpdates_Text" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="StatusUpdatesList_View_Title" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="WallPostListKineticListView_IfEmptyText" xml:space="preserve">
+    <value>Стена пуста.</value>
+  </data>
+  <data name="WallPostList_View_Title" xml:space="preserve">
+    <value>Стена</value>
+  </data>
+  <data name="EditPhotoView_Text" xml:space="preserve">
+    <value>Редактировать фото</value>
+  </data>
+  <data name="EditPhoto_Designer_btnCropImage_Text" xml:space="preserve">
+    <value>Обрезать</value>
+  </data>
+  <data name="EditPhoto_Designer_btnRotareImageClockwise_Text" xml:space="preserve">
+    <value>CW</value>
+  </data>
+  <data name="EditPhoto_Designer_btnRotareImageCounterclockwise_Text" xml:space="preserve">
+    <value>CCW</value>
+  </data>
+  <data name="EditPhoto_Designer_menuItemCancel_Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="EditPhoto_Designer_menuItemSave_Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="UploadPhoto_Controller_ModifyPhotoResponseMessage" xml:space="preserve">
+    <value>Изображение не выбрано!</value>
+  </data>
+  <data name="UploadPhoto_Controller_newOpenFileDialog_Filter" xml:space="preserve">
+    <value>Изображения JPG|*.jpg|Изображения BMP|*.bmp|Изображения GIF|*.gif|Изображения PNG|*.png|Все файлы (*.*)|*.*</value>
+  </data>
+  <data name="UploadPhoto_Controller_ResponseMessage_FileDoesNotExist" xml:space="preserve">
+    <value>Файл не существует!</value>
+  </data>
+  <data name="UploadPhoto_Controller_ResponseMessage_ImageConvertingError" xml:space="preserve">
+    <value>Ошибка преобразования файла!</value>
+  </data>
+  <data name="UploadPhoto_Controller_ResponseMessage_ImageSuccessfullyDownloaded" xml:space="preserve">
+    <value>Изображение отправлено в альбом</value>
+  </data>
+  <data name="UploadPhoto_Controller_UploadPhotoResponseMessage_ImageIsNotDownloaded" xml:space="preserve">
+    <value>Изображение не загружено</value>
+  </data>
+  <data name="UploadPhoto_Controller_UploadPhotoResponseMessage_ImageIsNotPicked" xml:space="preserve">
+    <value>Изображение не выбрано</value>
+  </data>
+  <data name="UploadPhoto_Designer_btnLoadPhotoFromDisk_Text" xml:space="preserve">
+    <value>С диска</value>
+  </data>
+  <data name="UploadPhoto_Designer_btnModifyPhoto_Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="UploadPhoto_Designer_btnSnapPhotoWithinCamera_Text" xml:space="preserve">
+    <value>С камеры</value>
+  </data>
+  <data name="UploadPhoto_Designer_menuItemBack_Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="UploadPhoto_Designer_menuItemUpload_Text" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="UploadPhoto_Designer_rbMobileAlbum_Text" xml:space="preserve">
+    <value>В альбом</value>
+  </data>
+  <data name="UploadPhoto_Designer_rbPrivateAlbum_Text" xml:space="preserve">
+    <value>На аватар</value>
+  </data>
+  <data name="UploadPhoto_View_Title" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="FriendsListKineticListView_IfEmptyText" xml:space="preserve">
+    <value>Попробуйте обновить вручную</value>
+  </data>
+  <data name="FriendsList_Designer_btnRefresh_Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="FriendsList_View_Title" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="toolBar_Friends" xml:space="preserve">
+    <value>Друзья</value>
+  </data>
+  <data name="toolBar_Messages" xml:space="preserve">
+    <value>Беседы</value>
+  </data>
+  <data name="toolBar_News" xml:space="preserve">
+    <value>Новости</value>
+  </data>
+  <data name="toolBar_Photos" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="AboutView_Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="SettingsView_Button_Exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="SettingsView_Text" xml:space="preserve">
+    <value>Настройка приложения</value>
+  </data>
+  <data name="StartNotification" xml:space="preserve">
+    <value>Запустить оповещение</value>
+  </data>
+  <data name="StopNotification" xml:space="preserve">
+    <value>Остановить оповещение</value>
+  </data>
+  <data name="AboutView_btnUpdate_Text_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="AboutView_Button_Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="AboutView_Button_Photo" xml:space="preserve">
+    <value>Загр. фото</value>
+  </data>
+  <data name="AboutView_Button_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="AboutView_lblApplicationTitle_Text" xml:space="preserve">
+    <value>ВКонтакте Windows Mobile</value>
+  </data>
+  <data name="AboutView_lblVersionIsMandatory_Text" xml:space="preserve">
+    <value>Необходимо скачать новую версию!</value>
+  </data>
+  <data name="AboutView_UpdateCompleteDialog_Text" xml:space="preserve">
+    <value>Проверка обновления успешно выполнена!</value>
+  </data>
+  <data name="Settings_View_Back" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Settings_View_Save" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="ApplicationUpdate_Message_Undefined" xml:space="preserve">
+    <value>Невозможно выполнить проверку обновления!</value>
+  </data>
+  <data name="IncorrectLoginOrPassword" xml:space="preserve">
+    <value>Неверный логин или пароль</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>Неудалось подключится к серверу, проверьте настройки подключения</value>
+  </data>
+  <data name="OutOfMemory" xml:space="preserve">
+    <value>Для выполнения операции недостаточно памяти!</value>
+  </data>
+  <data name="VK_ERRORS_ExpireSession" xml:space="preserve">
+    <value>Сессия истекла</value>
+  </data>
+  <data name="VK_ERRORS_NoConnection" xml:space="preserve">
+    <value>Не удается произвести подключение к Интернет. Проверьте настройки подключения</value>
+  </data>
+  <data name="VK_ERRORS_ServerUnavalible" xml:space="preserve">
+    <value>Сервер недоступен</value>
+  </data>
+  <data name="VK_ERRORS_UnknownError" xml:space="preserve">
+    <value>Неизвестная ошибка</value>
+  </data>
+  <data name="MessagesList_Controller_Messages_MessageSentSuccessfully" xml:space="preserve">
+    <value>Сообщение успешно отправлено!</value>
+  </data>
+  <data name="MessagesList_Controller_Messages_MessageSentUnsuccessfully" xml:space="preserve">
+    <value>Операция выполнена с ошибкой.</value>
+  </data>
+  <data name="VK_ERRORS_OperationIsProhibitedByPrivacy" xml:space="preserve">
+    <value>Операция запрещена настройками приватности</value>
+  </data>
+  <data name="toolBar_Extras" xml:space="preserve">
+    <value>Еще</value>
+  </data>
+  <data name="FriendsList_Messages_OperationDoneUnsuccsessfully" xml:space="preserve">
+    <value>Операция выполнена с ошибкой.</value>
+  </data>
+  <data name="PhotoCommentsUpdatesList_Messages_OperationDoneUnsuccsessfully" xml:space="preserve">
+    <value>Операция выполнена с ошибкой.</value>
+  </data>
+  <data name="StatusUpdatesList_Messages_OperationDoneUnsuccsessfully" xml:space="preserve">
+    <value>Операция выполнена с ошибкой.</value>
+  </data>
+  <data name="ErrorMessages_OperationIsDoneUnsuccsessfully" xml:space="preserve">
+    <value>Операция выполнена с ошибкой!</value>
+  </data>
+  <data name="AutoUpdateAtStart" xml:space="preserve">
+    <value>При старте</value>
+  </data>
+  <data name="BackgroundNotification" xml:space="preserve">
+    <value>Нотификация</value>
+  </data>
+  <data name="GroupNotifications" xml:space="preserve">
+    <value>Оповещения</value>
+  </data>
+  <data name="GroupPhotos" xml:space="preserve">
+    <value>Добавление фото в альбом</value>
+  </data>
+  <data name="GroupUpdate" xml:space="preserve">
+    <value>Обновления</value>
+  </data>
+  <data name="ImageMaxSize" xml:space="preserve">
+    <value>Разрешение изображений</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="RenewInRoam" xml:space="preserve">
+    <value>Обновлять в роуминге</value>
+  </data>
+  <data name="SettingsView_Group_BackGroundEventsCheck" xml:space="preserve">
+    <value>Фоновая проверка событий</value>
+  </data>
+  <data name="SettingsView_menuItemBack_Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="SettingsView_menuItemSave_Text" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="Settings_Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="Settings_DoNotChange" xml:space="preserve">
+    <value>Не изменять</value>
+  </data>
+  <data name="Settings_Friends" xml:space="preserve">
+    <value>Новые друзья</value>
+  </data>
+  <data name="Settings_FriendsNews" xml:space="preserve">
+    <value>Новости друзей</value>
+  </data>
+  <data name="Settings_FriendsPhotos" xml:space="preserve">
+    <value>Фото друзей</value>
+  </data>
+  <data name="Settings_In10Min" xml:space="preserve">
+    <value>Раз в 10 минут</value>
+  </data>
+  <data name="Settings_In5Min" xml:space="preserve">
+    <value>Раз в 5 минут</value>
+  </data>
+  <data name="Settings_InHour" xml:space="preserve">
+    <value>Раз в час</value>
+  </data>
+  <data name="Settings_Messages" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="Settings_Off" xml:space="preserve">
+    <value>Выключено</value>
+  </data>
+  <data name="Settings_Res640X480" xml:space="preserve">
+    <value>640x480</value>
+  </data>
+  <data name="Settings_WallMessages" xml:space="preserve">
+    <value>Сообщения стены</value>
+  </data>
+  <data name="UpdateFriendsStatus" xml:space="preserve">
+    <value>Закачивать статусы друзей</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="UploadPhotoView_Header" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="UploadPhotoView_VoidPhotoLabel" xml:space="preserve">
+    <value>Выбери картинку&lt;br&gt;или&lt;br&gt;сделай снимок</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="DataLoading" xml:space="preserve">
+    <value>Обновление данных...</value>
+  </data>
+  <data name="LoginView_LoginOrPassIsEmpty" xml:space="preserve">
+    <value>Для входа необходимо заполнить поля логина и пароля</value>
+  </data>
+  <data name="PlatformSupport" xml:space="preserve">
+    <value>Для запуска приложения необходима Windows Mobile 5.0 и выше с тачскрином</value>
+  </data>
+  <data name="StatusControl_TextSubstitute" xml:space="preserve">
+    <value>О чём Вы думаете?</value>
+  </data>
+  <data name="VK_ERRORS_AccountBloked" xml:space="preserve">
+    <value>Ваш аккаунт временно заблокирован, попробуйте позже.</value>
+  </data>
+  <data name="VK_ERRORS_NoSavedToken" xml:space="preserve">
+    <value>Не сохранен токен авторизации</value>
+  </data>
+  <data name="ExtraView_AboutButtonTitle" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="ExtraView_ExitButtonTitle" xml:space="preserve">
+    <value>Выйти из приложения</value>
+  </data>
+  <data name="ExtraView_HelpButtonTitle" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="ExtraView_SettingsButtonTitle" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ExtraView_Text" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="ExtraView_UserDataButtonTitle" xml:space="preserve">
+    <value>Данные пользователя</value>
+  </data>
+  <data name="UserDataView_Button_ClearCache" xml:space="preserve">
+    <value>Очистить кэш</value>
+  </data>
+  <data name="UserDataView_Button_ClearPass" xml:space="preserve">
+    <value>Сменить пользователя</value>
+  </data>
+  <data name="UserDataView_Text" xml:space="preserve">
+    <value>Данные пользователя</value>
+  </data>
+  <data name="UserData_ClearCache" xml:space="preserve">
+    <value>Вы действительно хотите очистить локальный кэш?</value>
+  </data>
+  <data name="UserData_ClearPass" xml:space="preserve">
+    <value>Вы действительно хотите стереть пароль?</value>
+  </data>
+  <data name="UpdateInfoDialogControl_Buttons_Cancel" xml:space="preserve">
+    <value>Позже</value>
+  </data>
+  <data name="UpdateInfoDialogControl_Buttons_Exit" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="UpdateInfoDialogControl_Buttons_Skip" xml:space="preserve">
+    <value>Игнорировать</value>
+  </data>
+  <data name="UpdateInfoDialogControl_Buttons_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="UpdateInfo_Message_VersionAvaliable" xml:space="preserve">
+    <value>Доступна версия для скачивания</value>
+  </data>
+  <data name="ChangeStatusView_Title" xml:space="preserve">
+    <value>Смена статуса</value>
+  </data>
+  <data name="ChangeStatus_Title" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="AboutView_CheckUpdateButton" xml:space="preserve">
+    <value>Проверить обновления</value>
+  </data>
+  <data name="AboutView_MadeBy" xml:space="preserve">
+    <value>Сделано в </value>
+  </data>
+  <data name="AboutView_UploadUpdateButton" xml:space="preserve">
+    <value>Скачать версию </value>
+  </data>
+  <data name="ApplicationUpdate_Message_AlreadyInstall" xml:space="preserve">
+    <value>У Вас установлена свежая версия</value>
+  </data>
+  <data name="CommentControl_TextSubstitute" xml:space="preserve">
+    <value>Подпись...</value>
+  </data>
+  <data name="ChangeCommentView_Title" xml:space="preserve">
+    <value>Подпись</value>
+  </data>
+  <data name="HelpBackButton_Title" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="HelpIndexButton_Title" xml:space="preserve">
+    <value>Наверх</value>
+  </data>
+  <data name="SendMessageError" xml:space="preserve">
+    <value>Ошибка отправки сообщения</value>
+  </data>
+  <data name="WebBrowser_dialog_Text" xml:space="preserve">
+    <value>Открыть ссылку во внешнем браузере?</value>
+  </data>
+  <data name="WebBrowser_menuItemBack_Text" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="WebBrowser_menuItemToApp_Text" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="WebBrowser_View_Album_Title" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="WebBrowser_View_FriendProfile_Title" xml:space="preserve">
+    <value>Профиль друга</value>
+  </data>
+  <data name="WebBrowser_View_Help_Title" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="WebBrowser_View_SendGift_Title" xml:space="preserve">
+    <value>Отправка подарка</value>
+  </data>
+  <data name="WebBrowser_View_UriError" xml:space="preserve">
+    <value>Невозможно перейти по сылке</value>
+  </data>
+  <data name="WebBrowser_View_UserProfile_Title" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="WebBrowser_View_WriteMessage_Title" xml:space="preserve">
+    <value>Отправка сообщения</value>
+  </data>
+  <data name="FriendsList_Designer_btnFriendsNew_Text" xml:space="preserve">
+    <value>Новые</value>
+  </data>
+  <data name="FriendsList_Designer_btnFriendsOnline_Text" xml:space="preserve">
+    <value>Онлайн</value>
+  </data>
+  <data name="FriendsList_Designer_btnFriendsAll_Text" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="MainView_Label_Comments" xml:space="preserve">
+    <value>Комментариев</value>
+  </data>
+  <data name="MainView_Label_Friends" xml:space="preserve">
+    <value>Друзей</value>
+  </data>
+  <data name="VK_ERRORS_FloodControl" xml:space="preserve">
+    <value>Флуд-контроль</value>
+  </data>
+  <data name="VK_ERRORS_IncorrectLoginOrPassword" xml:space="preserve">
+    <value>Неверный логин или пароль</value>
+  </data>
+  <data name="VK_ERRORS_NonstandardServerError" xml:space="preserve">
+    <value>Нестандартная ошибка на сервере, повторите операцию</value>
+  </data>
+  <data name="VK_ERRORS_ServiceStartError" xml:space="preserve">
+    <value>Ошибка запуска сервиса</value>
+  </data>
+  <data name="MessagesList_View_MessageIsEmpty" xml:space="preserve">
+    <value>Наберите текст сообщения</value>
+  </data>
+  <data name="FilterText" xml:space="preserve">
+    <value>Фильтр</value>
+  </data>
+  <data name="MessagesList_Designer_menuItemCancel_Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="OutboxText" xml:space="preserve">
+    <value>Я:</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>Вчера</value>
+  </data>
+  <data name="ContextMenu_SendMessade" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="MessageSend_Title" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="ContextMenu_CallNumber" xml:space="preserve">
+    <value>Позвонить на мобильный</value>
+  </data>
+  <data name="ContextMenu_SaveNumber" xml:space="preserve">
+    <value>Добавить в записную книжку</value>
+  </data>
+  <data name="ContextMenu_SendSms" xml:space="preserve">
+    <value>Отправить SMS</value>
+  </data>
+  <data name="ImageCommentView_MenuItem_Action" xml:space="preserve">
+    <value>Действие...</value>
+  </data>
+  <data name="ImageCommentView_MenuItem_Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="ImageCommentView_MenuItem_Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="FriendsList_View_FilterTitle" xml:space="preserve">
+    <value>Поиск друзей</value>
+  </data>
+  <data name="DefaultGroupHeader" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="FriendsSearchListViewMenuItemBack" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="FriendsSearchListViewMenuItemSelect" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="FriendsSearchListViewTitle" xml:space="preserve">
+    <value>Фильтр друзей</value>
+  </data>
+  <data name="NewMessage" xml:space="preserve">
+    <value>Написать сообщение</value>
+  </data>
+  <data name="SetGroupEndChar" xml:space="preserve">
+    <value>Я</value>
+  </data>
+  <data name="SetGroupStartChar" xml:space="preserve">
+    <value>А</value>
+  </data>
+  <data name="ImageCommentView_MenuItem_PutInAlbum" xml:space="preserve">
+    <value>Положить в мой альбом</value>
+  </data>
+  <data name="ImageCommentView_MenuItem_SavePhoto" xml:space="preserve">
+    <value>Сохранить на телефоне</value>
+  </data>
+  <data name="ImageCommentView_MenuItem_SendComment" xml:space="preserve">
+    <value>Оставить комментарий</value>
+  </data>
+  <data name="SendCommentTitle" xml:space="preserve">
+    <value>Отправка комментария</value>
+  </data>
+  <data name="SendCommentSend" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="NewCommentUploaded" xml:space="preserve">
+    <value>Комментарий загружен</value>
+  </data>
+  <data name="ShareView_Title" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="MessageI" xml:space="preserve">
+    <value>Я</value>
+  </data>
+  <data name="AboutView_Updates" xml:space="preserve">
+    <value>Обновления</value>
+  </data>
+  <data name="LoginView_Exit" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="LoginView_Remember" xml:space="preserve">
+    <value>запомнить меня</value>
+  </data>
+  <data name="ShareView_Button_Open" xml:space="preserve">
+    <value>Открыть файл изображения</value>
+  </data>
+  <data name="ShareView_Button_Photo" xml:space="preserve">
+    <value>Сделать снимок</value>
+  </data>
+  <data name="ShareView_Button_Write" xml:space="preserve">
+    <value>Сменить статус</value>
+  </data>
+  <data name="ShareView_Header" xml:space="preserve">
+    <value>Статус и фото</value>
+  </data>
+  <data name="MessagesList_Designer_menuItemActions_Text" xml:space="preserve">
+    <value>Действия...</value>
+  </data>
+  <data name="ChangeStatusView_SetStatusSuccess" xml:space="preserve">
+    <value>Статус обновлен!</value>
+  </data>
+  <data name="MultiValueView_Text" xml:space="preserve">
+    <value>Нотификация</value>
+  </data>
+  <data name="SettingsView_OnlyWiFi" xml:space="preserve">
+    <value>Только через Wi-Fi</value>
+  </data>
+  <data name="SettingsView_Renew" xml:space="preserve">
+    <value>Нотификация</value>
+  </data>
+  <data name="SettingsView_RenewInRoam" xml:space="preserve">
+    <value>Отключить в роуминге</value>
+  </data>
+  <data name="SettingsView_Representation" xml:space="preserve">
+    <value>Отображение</value>
+  </data>
+  <data name="SettingsView_ShowAvatars" xml:space="preserve">
+    <value>Показывать аватары</value>
+  </data>
+  <data name="SettingsView_Update" xml:space="preserve">
+    <value>Обновлять</value>
+  </data>
+  <data name="SettingsView_WhileStatrted" xml:space="preserve">
+    <value>При старте</value>
+  </data>
+  <data name="ImageCommentView_Title" xml:space="preserve">
+    <value>Фото</value>
+  </data>
+  <data name="ImageDetailedKineticListView_IfEmptyText" xml:space="preserve">
+    <value>Попробуйте обновить вручную</value>
+  </data>
+  <data name="DefaultFileNameToSave" xml:space="preserve">
+    <value>Untitled Image</value>
+  </data>
+  <data name="SharePhotoView_MenuItem_Action" xml:space="preserve">
+    <value>Действие...</value>
+  </data>
+  <data name="SharePhotoView_MenuItem_Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="SharePhotoView_MenuItem_RC" xml:space="preserve">
+    <value>По часовой стрелке</value>
+  </data>
+  <data name="SharePhotoView_MenuItem_RCC" xml:space="preserve">
+    <value>Против часовой стрелки</value>
+  </data>
+  <data name="SharePhotoView_MenuItem_Send" xml:space="preserve">
+    <value>Отправить в альбом</value>
+  </data>
+  <data name="SettingsView_GroupHeader" xml:space="preserve">
+    <value>Загрузка данных</value>
+  </data>
+  <data name="SendComment_DontEmpty" xml:space="preserve">
+    <value>Невозможно отправить пустой комментарий</value>
+  </data>
+  <data name="CallNumberResponseMessage_Unsuccess" xml:space="preserve">
+    <value>Операция выполнена с ошибкой</value>
+  </data>
+  <data name="SaveNumberResponseMessage_Succsess" xml:space="preserve">
+    <value>Информация добавлена в телефонную книжку</value>
+  </data>
+  <data name="SaveNumberResponseMessage_Unsuccess" xml:space="preserve">
+    <value>Операция выполнена с ошибкой</value>
+  </data>
+  <data name="AboutView_MenuItem_Check" xml:space="preserve">
+    <value>Проверить</value>
+  </data>
+  <data name="AboutView_MenuItem_Update" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="ApplicationUpdate_Message_MayInstall" xml:space="preserve">
+    <value>Доступна версия </value>
+  </data>
+  <data name="ImageUpload" xml:space="preserve">
+    <value>Загрузка изображения...</value>
+  </data>
+  <data name="ContextMenu_SendComment" xml:space="preserve">
+    <value>Написать комментарий</value>
+  </data>
+  <data name="ContextMenu_ViewComments" xml:space="preserve">
+    <value>Посмотреть комменарии</value>
+  </data>
+  <data name="DataRefreshing" xml:space="preserve">
+    <value>Обновление данных</value>
+  </data>
+  <data name="DontUpdate" xml:space="preserve">
+    <value>Не обновлять</value>
+  </data>
+  <data name="UpdateAlways" xml:space="preserve">
+    <value>Всегда</value>
+  </data>
+  <data name="VK_ERRORS_UnsuccessfullOperation" xml:space="preserve">
+    <value>Операция завершена неуспешно. Попробуйте еще раз</value>
+  </data>
+  <data name="ImageDetailedList_Group_Author" xml:space="preserve">
+    <value>Отправитель</value>
+  </data>
+  <data name="ImageDetailedList_Group_Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="CutToClipboard" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="PasteFromClipboard" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="FriendSearchView_DontChoice" xml:space="preserve">
+    <value>Необходимо выбрать друга из списка</value>
+  </data>
+  <data name="Empty_Status" xml:space="preserve">
+    <value>&lt;Статус не установлен&gt;</value>
+  </data>
+  <data name="SettingsView_GroupHeader_Notifications" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="SettingsView_GroupHeader_Photos" xml:space="preserve">
+    <value>Отправка фотографий</value>
+  </data>
+  <data name="FirstDataLoading" xml:space="preserve">
+    <value>Первичная загрузка данных</value>
+  </data>
+  <data name="AutoUpdateAtStart1" xml:space="preserve">
+    <value>Обновление при старте</value>
+  </data>
+  <data name="AboutView_Button_Support" xml:space="preserve">
+    <value>Вы хотите перейти на сайт поддержки?</value>
+  </data>
+  <data name="AboutView_MenuItem_Add" xml:space="preserve">
+    <value>Еще</value>
+  </data>
+  <data name="AboutView_MenuItem_Support" xml:space="preserve">
+    <value>Сайт поддержки...</value>
+  </data>
+  <data name="VK_ERRORS_NoLinkedApplication" xml:space="preserve">
+    <value>Ошибка! Невозможно получить данные Вашего профиля.
+Если Вы недавно создавали аккаунт, то для доступа к сервису Вам необходимо выполнить привязку к мобильному телефону на сайте vkontakte.ru.</value>
+  </data>
+  <data name="FriendList_Noname" xml:space="preserve">
+    <value>(Название не определено)</value>
+  </data>
+</root>

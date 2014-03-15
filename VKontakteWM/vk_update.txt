@@ -1,0 +1,4 @@
+﻿1.0.0
+!1.0.0
+http://vkontakte-wm.galssoft.ru/vkontakte10.cab
+Новая версия мобильного приложения ВКонтакте.

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Odnoklassniki.SysConfig>
+  <add key="logfilename" value="ApplicationLog.txt"/>
+  <add key="loglevel" value="3"/>
+</Odnoklassniki.SysConfig>

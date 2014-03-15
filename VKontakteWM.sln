@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKontakteWM", "VKontakteWM\VKontakteWM.csproj", "{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKontakteWM.Notification", "VKontakteWM.Notification\VKontakteWM.Notification.csproj", "{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKontakteWM.Components", "VKontakteWM.Components\VKontakteWM.Components.csproj", "{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "VKontakteWM.Setup", "VKontakteWM.Setup\VKontakteWM.Setup.vddproj", "{75E279B5-0195-4C47-87B1-C427176A7EEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VKontakteWM.Setup.dll", "VKontakteWM.Setup.dll\VKontakteWM.Setup.dll.vcproj", "{4C042EC5-DFBE-40DF-936E-BCB7073850C4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.galssoft.ru/tfs/DefaultCollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VKontakteWM\\VKontakteWM.csproj
+		SccProjectName1 = VKontakteWM
+		SccLocalPath1 = VKontakteWM
+		SccProjectUniqueName2 = VKontakteWM.Notification\\VKontakteWM.Notification.csproj
+		SccProjectName2 = VKontakteWM.Notification
+		SccLocalPath2 = VKontakteWM.Notification
+		SccProjectUniqueName3 = VKontakteWM.Components\\VKontakteWM.Components.csproj
+		SccProjectName3 = VKontakteWM.Components
+		SccLocalPath3 = VKontakteWM.Components
+		SccProjectUniqueName4 = VKontakteWM.Setup\\VKontakteWM.Setup.vddproj
+		SccProjectName4 = VKontakteWM.Setup
+		SccLocalPath4 = VKontakteWM.Setup
+		SccProjectUniqueName5 = VKontakteWM.Setup.dll\\VKontakteWM.Setup.dll.vcproj
+		SccProjectName5 = VKontakteWM.Setup.dll
+		SccLocalPath5 = VKontakteWM.Setup.dll
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Pocket PC 2003 (ARMV4) = Debug|Pocket PC 2003 (ARMV4)
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Pocket PC 2003 (ARMV4) = Release|Pocket PC 2003 (ARMV4)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{EFB1FEB4-ABE7-42B4-9231-DB14C74846A9}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{99DC56EB-64B3-4DC7-9598-1BAB8FB7DF31}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{34B7CEE1-5B6C-47A2-AA8C-A1EBC549E951}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Any CPU
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Debug|Any CPU.ActiveCfg = Debug
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Release|Any CPU.ActiveCfg = Release
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Release|Mixed Platforms.ActiveCfg = Release
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Release|Mixed Platforms.Build.0 = Release
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release
+		{75E279B5-0195-4C47-87B1-C427176A7EEB}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Debug|Any CPU.ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Debug|Mixed Platforms.ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Debug|Pocket PC 2003 (ARMV4).ActiveCfg = Debug|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Debug|Pocket PC 2003 (ARMV4).Build.0 = Debug|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Debug|Pocket PC 2003 (ARMV4).Deploy.0 = Debug|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Release|Any CPU.ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Release|Mixed Platforms.ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Release|Mixed Platforms.Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Release|Mixed Platforms.Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Release|Pocket PC 2003 (ARMV4).ActiveCfg = Release|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Release|Pocket PC 2003 (ARMV4).Build.0 = Release|Pocket PC 2003 (ARMV4)
+		{4C042EC5-DFBE-40DF-936E-BCB7073850C4}.Release|Pocket PC 2003 (ARMV4).Deploy.0 = Release|Pocket PC 2003 (ARMV4)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
